@@ -1,0 +1,205 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+
+}
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .1) ;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.udemy-logo {
+    width: 7%;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    margin-left: 30px;
+}
+.input {
+    position: relative;
+    top: 10px;
+    width: 650px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #F7F9FA;
+    border: .5px solid gray;
+    margin-left: 35px;
+}
+.nav-bar p {
+    position: relative;
+    top: 28px;
+    left: 12px;
+    font-size: 0.8rem;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #1b1c1e;
+    position: relative;
+    top: 28px;
+    left: 10px;
+    font-size: 0.8rem;
+}
+.nav-bar a:hover {
+    color: blue;
+}
+form {
+    position: relative;
+}
+input::placeholder {
+   padding-left: 30px;
+}
+.udemy a {
+    font-size: 12px;
+}
+/* .courses a {
+ text-decoration: none;
+  font-size: 0.8rem;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  padding-left: 15px;
+} */
+.search-bar {
+    width: 2%;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    opacity: 0.5;
+}
+/* .cart {
+    width: 12%;
+    height: auto;
+    position: relative;
+    left: 150px;
+    top: 28px;
+} */
+.globe-img {
+    width: 100%;
+}
+.button-class {
+    margin: 10px;
+    display: flex;
+    position: relative;
+    top: 5px;
+}
+.nav-button {
+    background: none;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid black;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.nav-button2 {
+    background: #1b1c1e;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid black;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+.nav-button3 {
+    background: none;
+    padding: 10px;
+    width: 40px;
+    border: 1px solid black;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.nav-button button:hover {
+    background-color: #F7F9FA;
+}
+button {
+    width: 120px;
+    padding: 5px;
+}
+.container {
+    display: flex;
+}
+.first-child {
+    margin: auto;
+    position: relative;
+
+}
+.text-box {
+    background-color: white;
+    width: 430px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+.text-box-h2 {
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 2rem;
+    color: #1b1c1e;
+    padding: 30px 0 15px 30px ;
+}
+.text-box p {
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
+.second-section h1 {
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 2.2rem;
+    color: #1b1c1e;
+    margin: 40px 0 20px 100px;
+}
+.second-section p {
+    font-size: 1.2rem;
+    margin: 20px 0 20px 100px;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;   
+}
+.skillset {
+    margin-left: 100px;
+}
+.skillset a {
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol; 
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: gray;
+   
+}
+.skillset a:hover {
+    color: black;
+}
+.skillset_tags {
+    padding-left: 20px;
+}
+/* THIRD SECTION */
+.third-section {
+    display: flex;
+}
+.wrapper {
+    border: 1px solid gray;
+    margin: auto;
+    width: 87%;
+    margin-top: 20px;
+}
+.wrapper h2 {
+    padding: 30px 0 10px 30px;
+}
+.wrapper p {
+    padding-left: 30px;
+}
+.second_button {
+    width: 130px;
+    padding: 10px;
+    background: none;
+    margin: 30px 0 0 30px;
+    font-weight: bold;
+}
